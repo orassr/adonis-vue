@@ -1,0 +1,3 @@
+CLIENT :
+npm i axios lodash vuetify vuex-persistedstate vuex-router-sync
+
