@@ -5,14 +5,14 @@
             <h1>Register</h1>
 
             <v-text-field
-                lang="Email"
+                label="Email"
                 placeholder="Email"
                 :value="registerEmail"
                 @input="setRegisterEmail"
             ></v-text-field>
 
             <v-text-field
-                lang="Password"
+                label="Password"
                 placeholder="Password"
                 type="password"
                 autocomplete="new-password"

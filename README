@@ -6,3 +6,11 @@ A project based on Adonis.js and Vue.js with Vuex as a state manager
 CLIENT :
 npm i axios lodash vuetify vuex-persistedstate vuex-router-sync
 
+
+rules have been added to the .eslint file: 
+    rules: {
+        'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        'no-param-reassign': 'off',
+        'arrow-body-style': 'off',
+    },

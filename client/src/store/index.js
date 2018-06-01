@@ -1,4 +1,4 @@
-// import createPersistedStore from 'vuex-persistedstate';
+import createPersistedStore from 'vuex-persistedstate';
 
 import Vue from 'vue';
 import Vuex from 'vuex';
@@ -12,6 +12,7 @@ export default new Vuex.Store({
         baseUrl: '/api',
     },
     modules: {
+        // Importing the authentication module
         authentication,
     },
     mutations: {
@@ -20,7 +21,7 @@ export default new Vuex.Store({
     actions: {
 
     },
-    //  plugins: [
-    //   createPersistedStore(),
-    //  ],
+    plugins: [
+        createPersistedStore(),
+    ],
 });
